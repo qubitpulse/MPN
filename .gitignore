@@ -1,0 +1,27 @@
+# Deno
+deno.lock
+
+# Build artifacts
+dist/
+build/
+*.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (should not exist in MPN, but just in case)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
