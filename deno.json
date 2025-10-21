@@ -1,0 +1,19 @@
+{
+  "name": "@qubitpulse/mpn",
+  "version": "0.1.0",
+  "description": "Modern Package Nexus - A secure, Deno-native package manager alternative to npm",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./cli": "./src/cli/mod.ts",
+    "./verify": "./src/core/verify.ts",
+    "./cache": "./src/cache/mod.ts",
+    "./config": "./src/config/mod.ts"
+  },
+  "tasks": {
+    "dev": "deno run --allow-read --allow-write --allow-net --allow-env src/cli/mod.ts",
+    "test": "deno test --allow-read --allow-write --allow-net",
+    "fmt": "deno fmt",
+    "lint": "deno lint"
+  },
+  "imports": {}
+}
